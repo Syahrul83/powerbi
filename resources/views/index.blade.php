@@ -68,7 +68,7 @@
 
 							<div class="row">
 								<div class="col-lg-12">
-                                    <iframe title="ujicoba" width="100%" height="500"  src="{!! setting('site.POWERBI') !!}" frameborder="0" allowFullScreen="true"></iframe>
+                                    <iframe title="ujicoba" width="100%" height="750"  src="{!! setting('site.POWERBI') !!}" frameborder="0" allowFullScreen="true"></iframe>
 							</div>
 
 
