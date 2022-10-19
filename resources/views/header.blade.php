@@ -77,7 +77,7 @@
 								<div class="header-row">
 									<div class="header-logo">
 										<a href="/">															<?php  $logo="logo"  ?>
-											<img alt="Juwata" width="130" height="48" data-sticky-width="100" data-sticky-height="40" src="{{ setting('site.logo') }}">
+											<img alt="Juwata" width="130" height="48" data-sticky-width="100" data-sticky-height="40" src="storage/{{ setting('site.logo') }}">
 										</a>
 									</div>
 								</div>
@@ -239,7 +239,7 @@
       <div class="row py-4">
       <div class="col-lg-1 d-flex align-items-center justify-content-center justify-content-lg-start mb-2 mb-lg-0">
 								<a href="/index.html" class="logo pr-0 pr-lg-3">
-													<img alt="Porto Website Template" src="{{ setting('site.logo') }}" class="opacity-5" height="30">
+													<img alt="Porto Website Template" src="storage/{{ setting('site.logo') }}" class="opacity-5" height="30">
 												</a>
 													</div>
 	<div class="col-lg-4 d-flex align-items-center justify-content-center justify-content-lg-start mb-4 mb-lg-0">
