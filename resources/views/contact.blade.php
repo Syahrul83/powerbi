@@ -11,7 +11,7 @@
 					{{-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15932.381102355599!2d117.5680815!3d3.3266344!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdf222fd1284342d5!2sJuwata%20Airport!5e0!3m2!1sen!2sid!4v1599479465336!5m2!1sen!2sid" width="100%" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> --}}
 
 
-                <iframe title="ujicoba" width="1140" height="541.25" src="{!! setting('site.PETA') !!}" frameborder="0" allowFullScreen="true"></iframe>
+                <iframe title="ujicoba" width="100%"  src="{!! setting('site.PETA') !!}" frameborder="0" allowFullScreen="true"></iframe>
                 </div>
 
 				<div class="container">
