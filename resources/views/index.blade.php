@@ -68,38 +68,7 @@
 
 							<div class="row">
 								<div class="col-lg-12">
-									<div class="tabs">
-										<ul class="nav nav-tabs">
-											<li class="nav-item active">
-												<a class="nav-link" href="#datang" data-toggle="tab"> {{ app()->getLocale() == 'id'? 'Kedatangan' : 'Arrivals'}} </a>
-											</li>
-											<li class="nav-item">
-												<a class="nav-link" href="#berangkat" data-toggle="tab">{{ app()->getLocale() == 'id'? 'Keberangkatan' : 'Departures'}} </a>
-											</li>
-										</ul>
-										<div class="tab-content">
-
-											<div id="datang" class="tab-pane active">
-												{{-- <div class="airportia-widget"><iframe scrolling="no" frameborder="0" style="border:0; width: 100%; height: 95%; min-height: 400px; margin:0; padding:0;" src="https://www.airportia.com/widgets/airport/trk/arrivals/?df=dmy"></iframe><div style="font-family: arial,sans-serif; font-size:12px; color:#3f9bdc; width: 100%; text-align: center; margin-top: 2px; padding-top: 5px; border-top: 1px solid #65747e;"><a style="text-decoration:none; color:#3f9bdc;" href="https://www.airportia.com/indonesia/juwata-airport/arrivals/" title="Tarakan Juwata International Airport Arrivals" target="_top">Tarakan Juwata International Airport Arrivals</a> powered by <a style="text-decoration:none; color:#3f9bdc;" href="#" target="_top" title="flight tracker">Airportia Flight Tracker</a></div></div> --}}
-												<iframe
-												src="https://www.juwatatarakanairport.id/fidsweb/web_arrival/"
-												style="width: 100%; height: 450px"
-											  ></iframe>
-
-											</div>
-
-
-											<div id="berangkat" class="tab-pane">
-												{{-- <div class="airportia-widget"><iframe scrolling="no" frameborder="0" style="border:0; width: 100%; height: 95%; min-height: 400px; margin:0; padding:0;"
-																					  src="https://www.airportia.com/widgets/airport/trk/departures/?df=dmy"></iframe>
-													<div style="font-family: arial,sans-serif; font-size:12px; color:#3f9bdc; width: 100%; text-align: center; margin-top: 2px; padding-top: 5px; border-top: 1px solid #65747e;"><a style="text-decoration:none; color:#3f9bdc;"
-																																																									 href="https://www.airportia.com/indonesia/juwata-airport/departures/" title="Tarakan Juwata International Airport Departures" target="_top">Tarakan Juwata International Airport Departures</a> powered by <a style="text-decoration:none; color:#3f9bdc;" href="#" target="_top" title="flight tracker">Airportia Flight Tracker</a></div></div> --}}
-											<iframe
-											src="https://www.juwatatarakanairport.id/fidsweb/web_departure/"
-											style="width: 100%; height: 450px"></iframe>
-											</div>
-							</div>
-							</div>
+                                    <iframe title="ujicoba" width="100%" height="500"  src="{!! setting('site.POWERBI') !!}" frameborder="0" allowFullScreen="true"></iframe>
 							</div>
 
 
