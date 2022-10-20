@@ -30,21 +30,15 @@
 						<div class="row align-items-center">
 							<div class="col-lg-8">
 
-								@if ( app()->getLocale() == 'id')
 
 									<p>
-										Selamat Datang di Website<span class="highlighted-word"> Bandara Internasional Juwata</span>
-										<span>Cek Pelayana dan Informasi Terbaru Tentang Bandara.</span>
+                                        {!! setting('site.Welcome') !!}
+										{{-- Welcome to the<span class="highlighted-word"> Power BI</span>
+
+										<span>Check Services and the Latest Information About the Power BI.</span> --}}
 									</p>
 
-								@else
-									<p>
-										Welcome to the<span class="highlighted-word"> Power BI</span>
 
-										<span>Check Services and the Latest Information About the Power BI.</span>
-									</p>
-
-								@endif
 
 
 							</div>

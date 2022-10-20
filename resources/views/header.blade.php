@@ -183,7 +183,7 @@
 
 <div class="row py-5 my-4">
 <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-	<a class="twitter-timeline" data-height="170" data-dnt="true" data-theme="dark" href="https://twitter.com/">Tweets by Power BI</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	<a class="twitter-timeline" data-height="170" data-dnt="true" data-theme="dark" href="{{ setting('site.Twitter') }}">Tweets by Power BI</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 </div>
