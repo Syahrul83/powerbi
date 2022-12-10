@@ -17,8 +17,6 @@
 						</div>
 						<div class="row">
 							<div class="col p-static">
-
-
 							</div>
 						</div>
 					</div>
