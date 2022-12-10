@@ -32,7 +32,9 @@
 
 							<h2 class="font-weight-normal text-7 mb-2"><strong class="font-weight-extra-bold">{!! $hal->Judul !!}</strong></h2>
                             <br>
-                            <iframe title="ujicoba" width="100%" height="750"  src="{!! $hal->web_link !!}" frameborder="0" allowFullScreen="true"></iframe>
+                           @if ($hal->web_link != null)
+                           <iframe title="ujicoba" width="100%" height="750"  src="{!! $hal->web_link !!}" frameborder="0" allowFullScreen="true"></iframe>
+                           @endif
                             <br>
                             {!! $hal->content !!}
 
