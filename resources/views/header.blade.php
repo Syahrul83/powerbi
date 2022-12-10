@@ -77,7 +77,7 @@
 								<div class="header-row">
 									<div class="header-logo">
 										<a href="/">															<?php  $logo="logo"  ?>
-											<img alt="Juwata" height="48" data-sticky-width="48" data-sticky-height="48" src="storage/{{ setting('site.logo') }}">
+											<img alt="Juwata" height="48" data-sticky-width="48" data-sticky-height="48" src="{{ asset('storage/'.setting('site.logo')) }}">
 										</a>
 									</div>
 								</div>

@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BeritaController;
 use App\Http\Controllers\BerandaController;
+use App\Http\Controllers\HalamanStatisController;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,6 +27,8 @@ Route::group(['prefix' => 'admin'], function () {
 });
 
 Route::get('berita-post/{id}', [BeritaController::class, 'show']);
+
+Route::get('hal/{id}', [HalamanStatisController::class, 'show']);
 
 Route::get('contact-us', function () {
     return view('contact');
