@@ -2,72 +2,75 @@
 
 /* sosial icon wiget berubah warna biru*/
 .social-icons li:hover a {
-	background: #151719;
-	color: #007bff !important;
+  background: #151719;
+  color: #007bff !important;
 }
-
 
 #footer {
-    background: #1a3a5a;
-    border-top: 4px solid #1a3a5a;
-    font-size: 0.9em;
-    margin-top: 50px;
-    padding: 0;
-    position: relative;
-    clear: both;
+  background: #1a3a5a;
+  border-top: 4px solid #1a3a5a;
+  font-size: 0.9em;
+  margin-top: 50px;
+  padding: 0;
+  position: relative;
+  clear: both;
 }
 
-
-
 #footer a:not(.btn) {
-    color: #c3e6f2;
-    transition: all 0.1s ease-in-out;
+  color: #c3e6f2;
+  transition: all 0.1s ease-in-out;
 }
 
 #footer .footer-copyright {
-    background: #042640;
+  background: #042640;
 }
 
-html .bg-color-primary, html .bg-primary {
-    background-color:  #0064A1 !important;
+html .bg-color-primary,
+html .bg-primary {
+  background-color: #0064a1 !important;
 }
 
-
-html .list-primary.list-icons li > [class*="fa-"]:first-child, html .list-primary.list-icons li a:first-child > [class*="fa-"]:first-child, html .list-primary.list-icons li > .icons:first-child, html .list-primary.list-icons li a:first-child > .icons:first-child {
-    color: #a17e00;
-    border-color: #0064A1;
+html .list-primary.list-icons li > [class*='fa-']:first-child,
+html .list-primary.list-icons li a:first-child > [class*='fa-']:first-child,
+html .list-primary.list-icons li > .icons:first-child,
+html .list-primary.list-icons li a:first-child > .icons:first-child {
+  color: #a17e00;
+  border-color: #0064a1;
 }
 
-
-html .text-color-yel, html .text-yel {
-    color: #a17e00 !important;
+html .text-color-yel,
+html .text-yel {
+  color: #a17e00 !important;
 }
 
+#header .header-nav-main nav > ul > li.dropdown .dropdown-menu {
+  border-top-color: #a28b15;
+}
 
-/*
-
-    #header .header-nav-main nav > ul > li.dropdown .dropdown-menu {
-        border-top-color: #a28b15;
-    }
-
-
-
-    #header .header-nav-main nav > ul > li > a {
-        color: #99a919;
-    }
-
+#header .header-nav-main nav > ul > li > a {
+  color: #99a919;
+}
 
 #header .header-nav-main nav > ul:not(:hover) > li > a.active {
-    background-color: #9fa100;
-    color: #FFF;
+  background-color: #9fa100;
+  color: #fff;
 }
 
+#header .header-nav-top .nav > li > a,
+#header .header-nav-top .nav > li > span {
+  color: #fff;
+  font-size: 0.9em;
+  padding: 6px 10px;
+  display: inline-block;
+}
 
- */
- 
- #header .header-nav-top .nav > li > a, #header .header-nav-top .nav > li > span {
-    color: #525151;
-    font-size: 0.9em;
-    padding: 6px 10px;
-    display: inline-block;
+#header .header-body {
+  display: flex;
+  flex-direction: column;
+  background: #0064a1;
+  transition: min-height 0.3s ease;
+  width: 100%;
+  border-top: 3px solid #0064a1;
+  border-bottom: 1px solid transparent;
+  z-index: 1001;
 }
