@@ -198,9 +198,8 @@
                                 <li class="appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="1200"><i class="fas fa-wallet"></i><a href="/transport" class="d-block text-color-hover-light ">{{ app()->getLocale() == 'id'? 'Barang Hilang & Ditemukan' : 'Lost and Find Item' }} </a></li> --}}
 
                             </ul>
-                            <a href='#'></a>
-                            <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=8a93034f28c2d16cc0b0741256fd2ef97dfc2b3d'></script>
-                            <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/998528/t/0"></script>
+
+                            <a href="#"><img src="https://s01.flagcounter.com/count2/w8px/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
                         </div>
                     </div>
 
